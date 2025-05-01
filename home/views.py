@@ -32,3 +32,4 @@ def logoutuser(request):
     logout(request)
     return redirect('/userlogin')
     # return render(request, 'index.html')
+    
